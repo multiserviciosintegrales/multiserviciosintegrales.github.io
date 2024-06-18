@@ -1,0 +1,149 @@
+body{
+  background-image: url("/img/fondo\ de\ pag.jpg");
+}
+main{
+  /* margin-bottom: 20px; */
+  background-image: url("/img/fondo\ de\ pag.jpg");
+}
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Altura del contenedor igual a la altura de la ventana */
+    overflow: hidden; /* Ocultar el desbordamiento de la imagen */
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .responsive-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen cubrirá el contenedor */
+  }
+  .descripcion{
+    display: flex;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px; /* Espacio entre las columnas */
+    padding: 16px; /* Espacio interior del contenedor */
+  }
+  .Servicios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .grid-item {
+    /* background-color: #f0f0f0; */
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .turquesa{
+    background-image: url("/img/fondo\ turqueza.JPG");
+    background-size: contain;
+
+  }
+  .blanco{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .pie{
+    display: flex;
+    justify-content: center;
+  }
+  .centrar{
+    justify-content: center;
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    background-color: #73cfe8;
+    margin-top: 200px;
+  }
+  .row{
+    align-items: flex-center;
+  }
+  .contact-link{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px; /* Añadir espacio entre los enlaces si es necesario */
+
+  }
+  i{
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+
+  .turquesa>p{
+    /* font-family: "roboto-black"; */
+    font-family: var(--bs-body-font-family);
+    /* --bs-body-font-family: var(--bs-font-sans-serif); */
+    font-size: 1.3em;
+
+
+  }
+  .logo-whatsapp{
+    position: fixed;
+    top: 95%;
+    right: 0;
+    transform: translateY(-95%);
+    z-index: 1000; /* Asegura que el logo esté por encima de otros elementos */
+  }
+.logo-whatsapp svg{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+  @media (max-width: 912px) {
+    .responsive-image {
+      height: 100%;
+      width: auto; /* Mantiene la relación de aspecto de la imagen */
+    }
+    .featurette img{
+      width: 320px;
+      height: auto;
+      margin-top: 5px;
+    }
+    .row2>* {
+      /* padding-left: calc(var(--bs-gutter-x) * 2.5); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .pc{
+      display: none;
+    }
+    .Servicios img{
+      width: 90%;
+    }
+    
+
+
+  }
+
+  
+  @media (min-width: 1200px) {
+    .pc{
+       display: block;
+     }
+     .mobil{
+      display: none;
+     }
+     
+   }
