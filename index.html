@@ -323,13 +323,17 @@
 
       <!-- Three columns of text below the carousel -->
 
-      <div id="QuienesSomos" class="grid-container">
+      <div id="QuienesSomos" class="grid-container Nosotros">
         <!-- <div class="grid-item">
           <img src="/img/logo cuadrado chico.png" class="mobil"  alt="">
           <img src="/img/logo portada-g.png" class="pc" alt="">
 
         
         </div> -->
+        <div class="titulo">
+          <h1>Nosotros</h1>
+          <!-- <img src="/img/nuestros servicios.png" alt=""> -->
+        </div>
 
         <div class="grid-item fw-semibold">
           <p>Somos un equipo técnicos que ofrecemos nuestros servicios
@@ -342,10 +346,10 @@
 
 
       </div>
-      <div class="Servicios titulo" id="Servicios">
+      <section class="Servicios titulo" id="Servicios">
         <h1>Nuestros servicios</h1>
         <!-- <img src="/img/nuestros servicios.png" alt=""> -->
-      </div>
+      </section>
       <div class="row row2">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
           <img src="/img/a1.png" alt="" width="200px">
@@ -381,7 +385,7 @@
           <p><a class="btn btn-secondary" href="#Plomeria">Más detalles &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-                   <img src="/img/a4.png" width="200px" alt="">
+         <img src="/img/a4.png" width="200px" alt="">
 
           <!-- <h2 class="fw-normal">Aire acondicionado</h2> -->
 
@@ -406,7 +410,7 @@
 
       <div class="row featurette">
         <div class="col-md-7 blanco" id="Electricista">
-          <h2 class="featurette-heading fw-bold lh-1 text-center">Electricidad<span class="text-body-secondary"></span>
+          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Electricidad
           </h2>
           <p class="text-center fw-semibold">Trabajos de mantenimiento. Instalaciones y reparaciones de emergencia
             domiciliaria e industriales</p>
@@ -420,7 +424,7 @@
 
       <div class="row featurette" id="Herreria">
         <div class="col-md-7 order-md-1 blanco">
-          <h2 class="featurette-heading fw-bold lh-1 text-center">Herreria <span class="text-body-secondary"></span>
+          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Herreria 
           </h2>
           <p class="text-center fw-semibold">Fabricación e instalación de frente de rejas, portones, escaleras, techos y
             muebles estilo
@@ -429,44 +433,32 @@
         <div class="col-md-5 order-md-2">
           <img src="/img/p3.jpg" alt="herreria">
 
-          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg> -->
+         
         </div>
       </div>
 
-      <hr class="featurette-divider">
-
+      <hr class="featurette-divider" id="Plomeria">
+      
       <div class="row featurette">
-        <div class="col-md-7 blanco" id="Plomeria">
-          <h2 class="featurette-heading fw-bold lh-1 text-center">Plomería</h2>
+        <div class="col-md-7 order-md-1 blanco pequeño">
+          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Plomería</h2>
           <p class="text-center fw-semibold">Reparación, e instalación de plomería</p>
         </div>
-        <div class="col-md-5">
-          <img src="/img/p2.jpg" alt="plomería">
+        <div class="col-md-5 order-md-2 pequeño2">
+          <img src="/img/p2.jpg">
 
-          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg> -->
+          
         </div>
       </div>
-      <hr class="featurette-divider">
+          <hr class="featurette-divider" id="Aire">
 
-      <div class="row featurette" id="Aire">
-        <div class="col-md-7 order-md-1 blanco">
-          <h2 class="featurette-heading fw-bold lh-1 text-center">Aire acondicionado<span
+      <div class="row featurette">
+        <div class="col-md-7 order-md-1 blanco pequeño">
+          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Aire acondicionado<span
               class="text-body-secondary"></span></h2>
           <p class="text-center fw-semibold">Instalacion, mantenimiento y reparaciones.</p>
         </div>
-        <div class="col-md-5 order-md-2">
+        <div class="col-md-5 order-md-2 pequeño2">
           <img src="/img/p1.jpg" alt="Aire acondicionado">
 
 
@@ -476,7 +468,10 @@
       <!-- /END THE FEATURETTES -->
       <div class="Trabajos" style="margin-top:10px">
         <!-- <img src="/img/trabajos realizados.png" alt="Trabajos realizados"> -->
-        <h1 class="titulo">Trabajos realizados</h1>
+        <div class="titulo">
+          <h1>Trabajos realizados</h1>
+        </div>
+        
         <!-- <h2 class="sub-titulo">Herreria</h2> -->
       </div>
 
@@ -634,6 +629,36 @@
           <div class="gallery-image">
             <img src="/img/img14.jpg" alt="" class="image">
           </div>
+          <div class="gallery-image">
+            <img src="/img/img15.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img16.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img17.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img18.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img19.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img20.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img21.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img22.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img23.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img24.jpg" alt="" class="image">
+          </div>
         </div>
 
       </section>
@@ -689,6 +714,15 @@
   <script src="js/jquery.js"></script>
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="/js/galeria.js"></script>
+
+  <!--Para el Cierre del navbar-->
+  <script>
+    $(document).ready(function() {
+      $('.navbar-nav a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+      });
+    });
+  </script>
   <!-- <script src="js/jquery.parallax.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>

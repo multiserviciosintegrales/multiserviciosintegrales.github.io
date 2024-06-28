@@ -33,7 +33,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 16px; /* Espacio entre las columnas */
-    padding: 16px; /* Espacio interior del contenedor */
+    padding: 50px 16px 16px 16px; /* Espacio interior del contenedor */
   }
   .Servicios{
     display: flex;
@@ -153,14 +153,16 @@ body{
   flex-wrap: nowrap;
 }
 
-.titulo{
+.titulo h1{
  font-family: "Ubuntu", sans-serif;
  border-style: solid;
  color:white;
- margin-top: 50px;
+margin-top: 50px;
 margin-bottom: 25px;
-font-size: 1.8em;
+font-size: 2em;
+text-align: center;
 }
+
 .sub-titulo{
   font-size: 1.7em;
   color: black;
@@ -254,5 +256,34 @@ font-size: 1.8em;
       justify-content: center;
       align-items: center;
     }
+    .sub-titulo{
+      font-size: 2.5em;
+      color: black;
+    
+    }
+    .pequeño{
+      width: 53%;
+      margin-right: 70px;
+    }
+    .pequeño p{
+      font-size: 1.6em;
+    }
+    .pequeño2{
+      width: 35%;
+      margin-left: 42px;
+    }
+    .pequeño2 p{
+      font-size: 1.6em;
+    }
+    .Nosotros{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .titulo h1{
+      font-size: 2.5em;
+    }
+    
      
    }

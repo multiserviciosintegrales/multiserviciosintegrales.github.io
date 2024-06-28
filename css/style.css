@@ -55,9 +55,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    width: 80%;
+    width: 98%;
     max-width: 1600px;
-    height: 78vh;
+    height: 70vh;
     max-height: 800px;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.75);
