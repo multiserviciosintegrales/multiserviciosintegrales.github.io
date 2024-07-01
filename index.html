@@ -10,6 +10,8 @@
   <meta name="author" content="">
   <meta name="generator" content="">
 
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
   <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
   <script src="https://kit.fontawesome.com/dd84e1b5c1.js" crossorigin="anonymous"></script>
 
@@ -26,7 +28,7 @@
   <!-- <link rel="stylesheet" href="/css/estilos.css"> -->
   <!-- <link rel="stylesheet" href="./css/galeria.css">
   <link rel="stylesheet" href="./css/galeria2.css">  -->
- 
+
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/estilos.css">
@@ -215,8 +217,12 @@
               <a class="nav-link" href="#Servicios">Nuestros servicios</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#TrabajosRealizados">Trabajos Realizados</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
+
           </ul>
           <!-- <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -322,160 +328,167 @@
     <div class="containerP">
 
       <!-- Three columns of text below the carousel -->
-
-      <div id="QuienesSomos" class="grid-container Nosotros">
-        <!-- <div class="grid-item">
+      <section id="QuienesSomos">
+        <div class="grid-container Nosotros">
+          <!-- <div class="grid-item">
           <img src="/img/logo cuadrado chico.png" class="mobil"  alt="">
           <img src="/img/logo portada-g.png" class="pc" alt="">
 
         
         </div> -->
-        <div class="titulo">
-          <h1>Nosotros</h1>
+          <div class="titulo">
+            <h1>Nosotros</h1>
+            <!-- <img src="/img/nuestros servicios.png" alt=""> -->
+          </div>
+
+          <div class="grid-item fw-semibold">
+            <p>Somos un equipo técnicos que ofrecemos nuestros servicios
+              de mantenimiento, reparacion e instalación con más de 15 años de experiencia en el rubro
+              domiciliario e industrial.
+              Tenemos por objetivo brindarle al cliente una solución integral
+              en lo que se refiere a herrería, plomería, electricidad y aire acondicionado</p>
+            <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <section id="Servicios">
+        <div class="Servicios titulo">
+          <h1>Nuestros servicios</h1>
           <!-- <img src="/img/nuestros servicios.png" alt=""> -->
         </div>
+        <div class="row row2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
+            <img src="/img/a1.png" alt="" width="200px">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
 
-        <div class="grid-item fw-semibold">
-          <p>Somos un equipo técnicos que ofrecemos nuestros servicios
-            de mantenimiento, reparacion e instalación con más de 15 años de experiencia en el rubro
-            domiciliario e industrial.
-            Tenemos por objetivo brindarle al cliente una solución integral
-            en lo que se refiere a herrería, plomería, electricidad y aire acondicionado</p>
-          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
-        </div>
+            <!-- <h2 class="fw-normal">Electricidad</h2> -->
+            <!-- <p>Trabajos de emergencia e instalación de electricidad domiciliaria</p> -->
+            <p><a class="btn btn-secondary" href="#Electricista">Más detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
+            <img src="/img/a2.png" alt="" width="200px">
 
-
-      </div>
-      <section class="Servicios titulo" id="Servicios">
-        <h1>Nuestros servicios</h1>
-        <!-- <img src="/img/nuestros servicios.png" alt=""> -->
-      </section>
-      <div class="row row2">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-          <img src="/img/a1.png" alt="" width="200px">
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
-
-          <!-- <h2 class="fw-normal">Electricidad</h2> -->
-          <!-- <p>Trabajos de emergencia e instalación de electricidad domiciliaria</p> -->
-          <p><a class="btn btn-secondary" href="#Electricista">Más detalles &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-          <img src="/img/a2.png" alt="" width="200px">
-
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
             role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
-          <!-- <title>Placeholder</title>
+            <!-- <title>Placeholder</title>
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
           </svg> -->
-          <!-- <h2 class="fw-normal">Herreria</h2> -->
-          <!-- <p>Fabricación e instalación de frente de rejas, portones, escaleras, techos y muebles estilo industrial. -->
+            <!-- <h2 class="fw-normal">Herreria</h2> -->
+            <!-- <p>Fabricación e instalación de frente de rejas, portones, escaleras, techos y muebles estilo industrial. -->
 
-          <p><a class="btn btn-secondary" href="#Herreria">Más detalles &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            <p><a class="btn btn-secondary" href="#Herreria">Más detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
             role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
           </svg> -->
-          <img src="/img/a3.png " width="200px" alt="">
+            <img src="/img/a3.png " width="200px" alt="">
 
-          <!-- <h2 class="fw-normal">Plomeria</h2> -->
-          <!-- <p>Reparación, e instalación de plomería</p> -->
-          <p><a class="btn btn-secondary" href="#Plomeria">Más detalles &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-         <img src="/img/a4.png" width="200px" alt="">
+            <!-- <h2 class="fw-normal">Plomeria</h2> -->
+            <!-- <p>Reparación, e instalación de plomería</p> -->
+            <p><a class="btn btn-secondary" href="#Plomeria">Más detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
+            <img src="/img/a4.png" width="200px" alt="">
 
-          <!-- <h2 class="fw-normal">Aire acondicionado</h2> -->
+            <!-- <h2 class="fw-normal">Aire acondicionado</h2> -->
 
-          <p><a class="btn btn-secondary" href="#Aire">Más detalles &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+            <p><a class="btn btn-secondary" href="#Aire">Más detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
 
-        <div class="blanco centrar">
-          <h2 class="fw-bold">Además</h2>
-          <ul class="fw-semibold ademas">
-            <li>Tenemos matrícula de aire acondicionado</li>
-            <li>Somos monotributistas</li>
-            <li>Entregamos factura</li>
-          </ul>
+          <div class="blanco centrar">
+            <h2 class="fw-bold">Además</h2>
+            <ul class="fw-semibold ademas">
+              <li>Tenemos matrícula de aire acondicionado</li>
+              <li>Somos monotributistas</li>
+              <li>Entregamos factura</li>
+            </ul>
 
+          </div>
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 blanco" id="Electricista">
+            <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Electricidad
+            </h2>
+            <p class="text-center fw-semibold">Trabajos de mantenimiento. Instalaciones y reparaciones de emergencia
+              domiciliaria e industriales</p>
+          </div>
+          <div class="col-md-5">
+            <img src="/img/electricista a.jpg" alt="">
+          </div>
         </div>
-      </div><!-- /.row -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="Herreria">
+          <div class="col-md-7 order-md-1 blanco">
+            <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Herreria
+            </h2>
+            <p class="text-center fw-semibold">Fabricación e instalación de frente de rejas, portones, escaleras, techos
+              y
+              muebles estilo
+              industrial.</p>
+          </div>
+          <div class="col-md-5 order-md-2">
+            <img src="/img/p3.jpg" alt="herreria">
 
 
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 blanco" id="Electricista">
-          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Electricidad
-          </h2>
-          <p class="text-center fw-semibold">Trabajos de mantenimiento. Instalaciones y reparaciones de emergencia
-            domiciliaria e industriales</p>
+          </div>
         </div>
-        <div class="col-md-5">
-          <img src="/img/electricista a.jpg" alt="">
+
+        <hr class="featurette-divider" id="Plomeria">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-1 blanco pequeño">
+            <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Plomería</h2>
+            <p class="text-center fw-semibold">Reparación, e instalación de plomería</p>
+          </div>
+          <div class="col-md-5 order-md-2 pequeño2">
+            <img src="/img/p2.jpg">
+
+
+          </div>
         </div>
-      </div>
+        <hr class="featurette-divider" id="Aire">
 
-      <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-1 blanco pequeño">
+            <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Aire acondicionado<span
+                class="text-body-secondary"></span></h2>
+            <p class="text-center fw-semibold">Instalacion, mantenimiento y reparaciones.</p>
+          </div>
+          <div class="col-md-5 order-md-2 pequeño2">
+            <img src="/img/p1.jpg" alt="Aire acondicionado">
 
-      <div class="row featurette" id="Herreria">
-        <div class="col-md-7 order-md-1 blanco">
-          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Herreria 
-          </h2>
-          <p class="text-center fw-semibold">Fabricación e instalación de frente de rejas, portones, escaleras, techos y
-            muebles estilo
-            industrial.</p>
+
+          </div>
         </div>
-        <div class="col-md-5 order-md-2">
-          <img src="/img/p3.jpg" alt="herreria">
-
-         
-        </div>
-      </div>
-
-      <hr class="featurette-divider" id="Plomeria">
-      
-      <div class="row featurette">
-        <div class="col-md-7 order-md-1 blanco pequeño">
-          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Plomería</h2>
-          <p class="text-center fw-semibold">Reparación, e instalación de plomería</p>
-        </div>
-        <div class="col-md-5 order-md-2 pequeño2">
-          <img src="/img/p2.jpg">
-
-          
-        </div>
-      </div>
-          <hr class="featurette-divider" id="Aire">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-1 blanco pequeño">
-          <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Aire acondicionado<span
-              class="text-body-secondary"></span></h2>
-          <p class="text-center fw-semibold">Instalacion, mantenimiento y reparaciones.</p>
-        </div>
-        <div class="col-md-5 order-md-2 pequeño2">
-          <img src="/img/p1.jpg" alt="Aire acondicionado">
-
-
-        </div>
-      </div>
+      </section>
 
       <!-- /END THE FEATURETTES -->
-      <div class="Trabajos" style="margin-top:10px">
-        <!-- <img src="/img/trabajos realizados.png" alt="Trabajos realizados"> -->
-        <div class="titulo">
-          <h1>Trabajos realizados</h1>
-        </div>
-        
-        <!-- <h2 class="sub-titulo">Herreria</h2> -->
-      </div>
+      <section id="TrabajosRealizados">
+        <div class="Trabajos" style="margin-top:10px">
+          <!-- <img src="/img/trabajos realizados.png" alt="Trabajos realizados"> -->
+          <div class="titulo">
+            <h1>Trabajos realizados</h1>
+          </div>
 
-            <!-- <div class="row3">
+          <!-- <h2 class="sub-titulo">Herreria</h2> -->
+        </div>
+
+        <!-- <div class="row3">
 
               <div class="column-2">
                 <img src="/img/herreria 1.jpg" alt="Rejas" onclick="myFunction(this);">
@@ -517,9 +530,9 @@
             </div>
             -->
 
-            <!--segunda galeria -->
+        <!--segunda galeria -->
 
-            <!-- <div class="wrapper">
+        <!-- <div class="wrapper">
 
               <div class="container2">
                 <div id="start" class="gal"><img src="/img/rejass 1.jpg" alt="Rejas"></div>
@@ -565,7 +578,7 @@
 
 
 
-            <!-- fin segunda galeria-->
+        <!-- fin segunda galeria-->
 
 
         <!-- popup -->
@@ -573,7 +586,7 @@
           <!-- top bar -->
           <div class="top-bar">
             <p class="image-name" style="display:none">REJAS</p>
-            
+
             <span class="close-btn"></span>
           </div>
           <!-- arrows -->
@@ -588,7 +601,7 @@
         <div class="gallery">
           <div class="gallery-image">
             <img src="img/img1.jpg" alt="Rejas" class="image">
-            
+
           </div>
           <div class="gallery-image">
             <img src="img/img2.jpg" alt="Rejas" class="image">
@@ -598,6 +611,7 @@
           </div>
           <div class="gallery-image">
             <img src="img/img4.jpg" alt="Rejas" class="image">
+
           </div>
           <div class="gallery-image">
             <img src="img/img5.jpg" alt="" class="image">
@@ -659,38 +673,90 @@
           <div class="gallery-image">
             <img src="/img/img24.jpg" alt="" class="image">
           </div>
+          <div class="gallery-image">
+            <img src="/img/img25.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img26.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img27.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img28.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img29.jpg" alt="" class="image">
+          </div>
+          <div class="gallery-image">
+            <img src="/img/img30.jpg" alt="" class="image">
+          </div>
         </div>
 
+        <div class="videos">
+          <video src="/video/rejas.mp4" style="max-width:98%; height: auto;" controls></video> <br>
+          <video src="/video/porton.mp4" style="max-width:98%; height: auto;" controls></video>
+        </div>
+        
       </section>
 
       <script src="/js/app.js"></script>
-      <!--Galeria3-->
-
-
-
-
-
-
-
-      <div class="blanco centrar contacto" id="Contacto">
-        <!-- <img src="/img/conttacto.png" alt="contacto"> -->
+      <!--Galeria3-->     
+      <div class="titulo">
         <h1>Contacto</h1>
-
-        <div centrar>
+      </div> 
+      <div class="centrar contacto" id="Contacto">
+        <!-- <img src="/img/conttacto.png" alt="contacto"> -->
+        
+        <div class="mobil">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3277.2857922066833!2d-58.61028092425243!3d-34.77357997289389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ2JzI0LjkiUyA1OMKwMzYnMjcuNyJX!5e0!3m2!1ses-419!2sar!4v1719860133302!5m2!1ses-419!2sar" width="98%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="pc">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3277.2856600688815!2d-58.6076944!3d-34.7735833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ2JzI0LjkiUyA1OMKwMzYnMjcuNyJX!5e0!3m2!1ses-419!2sar!4v1719864678063!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        
+        <div>
+          <a href="" class="contact-link"> 
+            <i class="fa-solid fa-location-dot" style="font-size:1.5em" ></i>
+            Apipé 6571, B1758EZS González Catán, Provincia de Buenos Aires             
+          </a
+          >
           <a class="contact-link" href="https://www.facebook.com/mantenimientoyreparacionesgenerales"><i
-              class="fa-brands fa-facebook" style="color: #0091ff; font-size: 2em;"></i> MSI MultiServicios
+              class="fa-brands fa-facebook" style="color: #0091ff; font-size: 1.5em;"></i> MSI MultiServicios
             integrales</a>
           <a class="contact-link" href="https://www.instagram.com/msi_multiserviciosintegrales/"> <i
-              class="fa-brands fa-instagram" style="color: #ff1fce; font-size: 2em;"></i>
+              class="fa-brands fa-instagram" style="color: #ff1fce; font-size: 1.5em;"></i>
             msi_multiserviciosintegrales</a>
           <!-- <a class="contact-link" href="https://wa.link/lrkrx6"><i class="fa-brands fa-whatsapp" style="color: #63E6BE; font-size: 2em;"></i> 11-6685-2928</a> -->
           <a class="contact-link" href="https://wa.link/lrkrx6"><i class="fa-brands fa-square-whatsapp"
-              style="color: #10bc4c; font-size: 2em;"></i> 11-6685-2928</a>
+              style="color: #10bc4c; font-size: 1.5em;"></i> 11-6685-2928</a>
 
 
         </div>
 
+      </div>
 
+      <div>
+        <div class="contact-form-wrapper d-flex justify-content-center">
+          <form action="#" class="contact-form">
+            <h5 class="title">Hacenos tu consulta!</h5>
+            <p class="description">Envianos tu consulta por mail, llamanos por teléfono o bien completá el formulario, para realizarnos tu consulta.
+            </p>
+            <div>
+              <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Nombre y apellido" required>
+            </div>
+            <div>
+              <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required>
+            </div>
+            <div>
+              <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Consulta" required></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
       </div>
     </div><!-- /.container -->
 
@@ -705,9 +771,9 @@
     </div>
 
   </main>
-  <footer class="footer">
+  <footer class="footer bg-dark" >
     <div class="containerpie">
-      <span class="text-body-secondary pie">Multiservicios Integrales</span>
+      <span class="pie">Multiservicios Integrales</span>
     </div>
   </footer>
 
@@ -717,23 +783,12 @@
 
   <!--Para el Cierre del navbar-->
   <script>
-    $(document).ready(function() {
-      $('.navbar-nav a').on('click', function() {
+    $(document).ready(function () {
+      $('.navbar-nav a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
       });
     });
   </script>
-  <!-- <script src="js/jquery.parallax.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/magnific-popup-options.js"></script>
-  <script src="js/modernizr.custom.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script src="js/custom.js"></script> -->
-
-
-
-
 </body>
 
 </html>
