@@ -2,7 +2,7 @@
 <html lang="es" data-bs-theme="auto">
 
 <head>
-  <script src="../assets/js/color-modes.js"></script>
+  <!-- <script src="../assets/js/color-modes.js"></script> -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -124,6 +124,7 @@
 
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
+ 
 </head>
 
 <body>
@@ -342,7 +343,7 @@
           </div>
 
           <div class="grid-item fw-semibold">
-            <p>Somos un equipo técnicos que ofrecemos nuestros servicios
+            <p class="Nosotros">Somos un equipo técnicos que ofrecemos nuestros servicios
               de mantenimiento, reparacion e instalación con más de 15 años de experiencia en el rubro
               domiciliario e industrial.
               Tenemos por objetivo brindarle al cliente una solución integral
@@ -362,15 +363,15 @@
         </div>
         <div class="row row2">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-            <img src="/img/a1.png" alt="" width="200px">
+            <img src="/img/t1.png" alt="" width="200px">
             <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
 
             <!-- <h2 class="fw-normal">Electricidad</h2> -->
             <!-- <p>Trabajos de emergencia e instalación de electricidad domiciliaria</p> -->
-            <p><a class="btn btn-secondary" href="#Electricista">Más detalles &raquo;</a></p>
+            <p><a class="btn btn-secondary fw-bold" href="#Electricista">Más detalles &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-            <img src="/img/a2.png" alt="" width="200px">
+            <img src="/img/t2.png" alt="" width="200px">
 
             <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
             role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
@@ -380,7 +381,7 @@
             <!-- <h2 class="fw-normal">Herreria</h2> -->
             <!-- <p>Fabricación e instalación de frente de rejas, portones, escaleras, techos y muebles estilo industrial. -->
 
-            <p><a class="btn btn-secondary" href="#Herreria">Más detalles &raquo;</a></p>
+            <p><a class="btn btn-secondary fw-bold" href="#Herreria">Más detalles &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
             <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
@@ -388,26 +389,26 @@
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
           </svg> -->
-            <img src="/img/a3.png " width="200px" alt="">
+            <img src="/img/t3.png " width="200px" alt="">
 
             <!-- <h2 class="fw-normal">Plomeria</h2> -->
             <!-- <p>Reparación, e instalación de plomería</p> -->
-            <p><a class="btn btn-secondary" href="#Plomeria">Más detalles &raquo;</a></p>
+            <p><a class="btn btn-secondary fw-bold" href="#Plomeria">Más detalles &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 detalle">
-            <img src="/img/a4.png" width="200px" alt="">
+            <img src="/img/t4.png" width="200px" alt="">
 
             <!-- <h2 class="fw-normal">Aire acondicionado</h2> -->
 
-            <p><a class="btn btn-secondary" href="#Aire">Más detalles &raquo;</a></p>
+            <p><a class="btn btn-secondary fw-bold" href="#Aire">Más detalles &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="blanco centrar">
             <h2 class="fw-bold">Además</h2>
             <ul class="fw-semibold ademas">
-              <li>Tenemos matrícula de aire acondicionado</li>
-              <li>Somos monotributistas</li>
-              <li>Entregamos factura</li>
+              <li><i class="fa-solid fa-check"></i>Tenemos matrícula de aire acondicionado</li>
+              <li><i class="fa-solid fa-check"></i>Somos monotributistas</li>
+              <li><i class="fa-solid fa-check"></i>Entregamos factura</li>
             </ul>
 
           </div>
@@ -467,7 +468,7 @@
           <div class="col-md-7 order-md-1 blanco pequeño">
             <h2 class="featurette-heading fw-bold lh-1 text-center sub-titulo">Aire acondicionado<span
                 class="text-body-secondary"></span></h2>
-            <p class="text-center fw-semibold">Instalacion, mantenimiento y reparaciones.</p>
+            <p class="text-center fw-semibold">Instalación, mantenimiento y reparaciones.</p>
           </div>
           <div class="col-md-5 order-md-2 pequeño2">
             <img src="/img/p1.jpg" alt="Aire acondicionado">
@@ -739,21 +740,28 @@
 
       <div>
         <div class="contact-form-wrapper d-flex justify-content-center">
-          <form action="#" class="contact-form">
+          <form class="contact-form">
             <h5 class="title">Hacenos tu consulta!</h5>
             <p class="description">Envianos tu consulta por mail, llamanos por teléfono o bien completá el formulario, para realizarnos tu consulta.
             </p>
             <div>
-              <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Nombre y apellido" required>
+              <input type="text" class="form-control rounded border-white mb-3 form-input" id="name"  name="name" placeholder="Nombre y apellido" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
             </div>
             <div>
-              <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required>
+              <input type="email" name="email" class="form-control rounded border-white mb-3 form-input" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" placeholder="Email" required>
             </div>
             <div>
-              <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Consulta" required></textarea>
+              <textarea id="message" name="mensaje" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Consulta" required></textarea>
             </div>
             <div class="submit-button-wrapper">
               <input type="submit" value="Enviar">
+            </div>
+
+            <div class="contact-form-loader none">
+              <img src="img/loader-ball-triangle.svg" alt="Cargando">
+            </div>
+            <div class="contact-form-response none">
+              <p>Los datos han sido enviados</p>
             </div>
           </form>
         </div>
@@ -789,6 +797,55 @@
       });
     });
   </script>
+  <!-- <script src="/js/index_dom.js" type="module"></script> -->
+
+  <script>
+
+    const d = document;
+    function contactForm() {
+      const $form = d.querySelector(".contact-form"),
+        $inputs = d.querySelectorAll(".contact-form[required]");
+
+      d.addEventListener("submit", (e) => {
+        e.preventDefault();
+            // alert("Enviando formulario");
+        const $loader = d.querySelector(".contact-form-loader"),
+          $response = d.querySelector(".contact-form-response");
+         $loader.classList.remove("none");
+
+        fetch("https://formsubmit.co/ajax/nadia.vero8787@gmail.com", {
+          method: "POST",
+          body: new FormData(e.target),
+          mode:"cors"
+        })
+          .then(res => res.ok ? res.json() : Promise.reject(res))
+          .then(json => {
+            console.log(json);
+            $loader.classList.add("none");
+            $response.classList.remove("none");
+            $form.reset();
+
+          })
+          .catch(err => {
+            console.log(err);
+            $response.innerHTML = 'Error ${err.status}:${message}';
+          })
+
+          .finally(() => setTimeout(() => {
+            $response.classList.add("none");
+            $loader.classList.add("none")
+            $response.innerHTML = "";
+          }, 3000));
+
+
+      });
+    }
+    d.addEventListener("DOMContentLoaded", contactForm)
+  </script>
+
+
+
+
 </body>
 
 </html>

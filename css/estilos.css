@@ -19,6 +19,12 @@ body{
   a{
     text-decoration: none;
   }
+  .Nosotros{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.1em;
+  }
 
   .responsive-image {
     position: absolute;
@@ -169,6 +175,7 @@ margin-top: 50px;
 margin-bottom: 25px;
 font-size: 2em;
 text-align: center;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .sub-titulo{
@@ -278,7 +285,97 @@ text-align: center;
 iframe{
   margin-bottom: 20px;
 }
+
+.contact-form-loader{
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
 /*fin form*/
+
+/*Validacion*/
+/* **********     ContactForm Validations     ********** */
+/* .contact-form {
+  --form-ok-color: #4caf50;
+  --form-error-color: #f44336;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.contact-form > * {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form legend,
+.contact-form-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-form input[type="submit"] {
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form *::placeholder {
+  color: #000;
+}
+
+.contact-form [required]:valid {
+  border: thin solid var(--form-ok-color);
+}
+
+.contact-form [required]:invalid {
+  border: thin solid var(--form-error-color);
+}
+
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 80%;
+  background-color: var(--form-error-color);
+  color: #fff;
+  transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+  display: block;
+  animation: show-message 1s 1 normal 0s ease-out both;
+} */
+
+.none {
+  display: none;
+}
+ul{
+  list-style-type:none;
+}
+@keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+/*Fin validacion*/
 
 
 @media (max-width:414px){
@@ -385,10 +482,12 @@ iframe{
       display: flex;
       justify-content: center;
       flex-direction: column;
+      font-size: 1.3em;
     }
     
     .titulo h1{
       font-size: 3em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
     .contacto{
       width: 98%;
